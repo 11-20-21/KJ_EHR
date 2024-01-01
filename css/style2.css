@@ -52,6 +52,11 @@ h1, h2, h3, h4, h5, h6 {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+.bold-white {
+    color: white;
+    font-weight: bold;
+}
 .body_overlay {
     position: absolute;
     top: 0;
@@ -142,6 +147,8 @@ h1, h2, h3, h4, h5, h6 {
 /*
     Dashboard
 */
+
+
 .side-menu {
     width: 16%;
     max-width: 256px;
