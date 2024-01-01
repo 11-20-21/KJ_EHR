@@ -21,6 +21,11 @@ hi,h2,h3,h4,h5,h6 {
 	line-height:1.1em;
 }
 
+.bold-white {
+  color: white;
+  font-weight: bold;
+}
+
 p {
 	color:#333;
 	font-size:13px;
