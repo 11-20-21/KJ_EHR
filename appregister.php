@@ -566,7 +566,7 @@ $query = "SELECT * FROM tbl_students WHERE School='$institution' && Standard='$c
 		</div>
 	<!--footer-->
 	<div class="footer">
-	   <p>  <a href="#" target="">Design and Developed by mvumapatrick@gmail.com</a></p>		
+	   <p>  <a href="#" target="">Design and Developed by SAP</a></p>		
 	</div>
     <!--//footer-->
 	</div>

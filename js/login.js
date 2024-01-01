@@ -31,15 +31,15 @@ $('document').ready(function() {
 			},
 		success : function(response){						
 				if(response=="ok"){									
-					$("#login_button").html('<img src="../ajax-loader.gif" /> &nbsp; Signing In ...');
+					$("#login_button").html('<img src="ajax-loader.gif" /> &nbsp; Signing In ...');
 					setTimeout(' window.location.href = "administrator.php"; ',3000);
 				} 
 				else if(response=="teacher"){									
-					$("#login_button").html('<img src="../ajax-loader.gif" /> &nbsp; Signing In ...');
+					$("#login_button").html('<img src="ajax-loader.gif" /> &nbsp; Signing In ...');
 					setTimeout(' window.location.href = "appregister.php"; ',3000);
 				}
 				else if(response=="parent"){									
-					$("#login_button").html('<img src="../ajax-loader.gif" /> &nbsp; Signing In ...');
+					$("#login_button").html('<img src="ajax-loader.gif" /> &nbsp; Signing In ...');
 					setTimeout(' window.location.href = "parent.php"; ',3000);
 				}else {									
 					$("#error").fadeIn(1000, function(){						

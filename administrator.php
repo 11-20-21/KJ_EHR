@@ -3810,7 +3810,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
 	<div class="main-content">
 	<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 		<!--left-fixed -navigation-->
-		<aside class="sidebar-left">
+		<aside class="sidebar-left" style="background-color:DodgerBlue;">
       <nav class="navbar navbar-inverse" >
           <div class="navbar-header">
             <button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false">
@@ -3826,9 +3826,9 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
 			</center>	   
                            </div>
         
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:DodgerBlue;">
             <ul class="sidebar-menu">
-              <li class="header" style="margin-top:10px">
+              <li class="header" style="margin-top:10px;background-color:DodgerBlue; color:black;">
               	
               	 <h4>KJ Hospital</h4>
               </li>

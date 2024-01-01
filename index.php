@@ -73,55 +73,59 @@ if (isset($_GET['gs'])) {
   <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css"/>
 
+  
+
+<style>
+body { 
+  background-image: url('img/3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+}
+</style>
 </head>
     
 <body>
 
-<div class="container"> 
-<nav class="navbar navbar-inverse" style="margin-top:5px;background-color:white">
-    <div class="container-fluid">
-     <div class="banner">
-<div style="color:red;margin-left:250px;margin-bottom:50px;margin-top:20px;font-size:30px;font-family:Dr Mlombe;">Patrick Mvuma Electronic Medical Records System</div>
-                    <center><img src="img/IMG-20160719-WA0007.jpg"  style="position:absolute;margin-top:-5%;border-radius:100%;width:90px"></center>
+<nav class="navbar " style="background-color:DodgerBlue; margin-bottom:150px; border-bottom:5px solid navy; box-shadow: 0px 3px 25px #151269;">
+  <div style="font-size:35px; display:flex; justify-content: center;align-items: center;">
+  <img src="img/logo.png" width="130" height="100" alt="">
+  <h1 style="padding-left:20px; font-size:45px; text-shadow: 2px 2px red;">KJ Electronic Health Record System</h1>
+  </div>
 
-               </div> 
-     
-&nbsp;</br>&nbsp;
-     </div>
-    
-    </nav>
+</nav>
 
-  
 
 	<div class="container-fluid">
-		<div class="col-md-2"></div>
-		<div class="col-md-8">
+		<div class="col-lg-4"></div>
+		<div class="col-lg-4">
 			<div class="panel panel-primary" >
 			<div class="panel-heading" >
-				<h3 class="panel-title">Please Login</h3>
+				<h1 style="text-align:center;">Login</h1>
 			</div>
-			<div class="panel-body">
+			<div class="panel-body" style="padding:30px; height:350px;">
 				<!-- logn form -->
 					 <form class="form-login" method="post" id="login-form">
                                         	<div id="error">
 		                                     </div>
+                                         
                                         <hr />
-		
-		                             <div class="form-group">
-			                           <input type="email" class="form-control" placeholder="Email address" name="user_email" id="user_email" />
+		                             <div class="form-group" >
+			                           <input type="email" class="form-control" placeholder="Email address" name="user_email" id="user_email" style="font-size:20px;" />
 			                             <span id="check-e"></span>
 		                             </div>
+                                 <br>
 		                             <div class="form-group">
-			                           <input type="password" class="form-control" placeholder="Password" name="password" id="password" />
+			                           <input type="password" class="form-control" placeholder="Password" name="password" id="password" style="font-size:20px;"/>
 		                             </div>
 		                             <hr />
-		                            <div class="form-group">
-			                           <button type="submit" class="btn btn-primary" name="login_button" id="login_button">
+                                 <br />
+		                            <div class="form-group" style="text-align: center;">
+			                           <button type="submit" class="btn btn-primary" name="login_button" id="login_button" style="height:50px; width:150px;">
 			                             <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
 			                           </button> 
-			                           <a href='index.php?gs=3' type="submit" class="btn btn-success" name="login_button" id="login_button">
-			                             <span class="fa fa-file-pdf-o"></span> &nbsp; User guide
-			                           </a>
+
 		                           </div> 
 	                                  </form>
 				<!-- logn form -->
