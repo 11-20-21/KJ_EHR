@@ -149,7 +149,7 @@ $retrieved = mysqli_query($db,$sqluser);
 			                 <td>$dop</td> 
 			                 <td>$doe</td>
 			                 <td>$Quantity</td>			                 
-			                 <td>MK$retail</td>	
+			                 <td>Rs.$retail</td>	
 			                  
 			                
 			                

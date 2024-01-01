@@ -1513,7 +1513,7 @@ function sum() {
             var result = (parseFloat(txtFirstNumberValue) /  parseFloat(txtForthNumberValue) )* parseFloat(txtSecondNumberValue);
             if (!isNaN(result)) {
                 //document.getElementById('txt3').value = result;
-                 $(".costperelement").html('Cost per Element MK'+result).prop("disabled", true);
+                 $(".costperelement").html('Cost per Element Rs.'+result).prop("disabled", true);
             }
         }
 
@@ -2945,7 +2945,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
                                 Comment
                             </td>
                             <td class="table_column s-column">
-                               MK<span id="fee1"></span>
+                               Rs.<span id="fee1"></span>
                             </td>
                             <td class="table_column m-column">
                                 <span id="pn1"></span>
@@ -3828,10 +3828,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
         
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:#00b160;">
             <ul class="sidebar-menu">
-              <li class="header" style="margin-top:10px;background-color:#00b160; color:black;">
-              	
-              	 <h4 style="text-align:center; font-size:24px; "><b>KJ Hospital</b></h4>
-              </li>
+
                 <?php
                
               $sql ="SELECT * FROM tbl_userprivilages WHERE Userid='$id' ";
@@ -3853,7 +3850,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
 				  <li class="treeview">
                 <a href="#">                
                    <i class="fa fa-users"></i>
-                <span><b>Patients</b></span>
+                <span style="padding-left:3px; font-size:20px; color: white; font-weight: bold;">Patients</span>
                 <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
@@ -3872,7 +3869,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
                	  ?>
               <li class="treeview">
                 <a href="#" class='openweekly'>
-                <i class="fa fa-user-md"></i> <span>Consultation</span>
+                <i class="fa fa-user-md"></i> <span style="padding-left:3px; font-size:20px; color: white; font-weight: bold;">Consultation</span>
                 <i class="fa fa-angle-left pull-right"></i><small class="label pull-right label-info1"><?php echo$petients; ?></small></a>
                 
               </li>
@@ -3891,7 +3888,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
               
               <li class="treeview">
                 <a href="#" class='openlabtests'>
-                <i class="fa fa-eyedropper"></i> <span>Laboratory </span>
+                <i class="fa fa-eyedropper"></i> <span style="padding-left:3px; font-size:20px; color: white; font-weight: bold;">Laboratory </span>
                 <i class="fa fa-angle-left pull-right"></i><small class="label pull-right label-primary1"><?php echo$petient; ?></small></a>
                 
               </li>
@@ -3926,7 +3923,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
 		           	?>         
               <li class="treeview">
                 <a href="#" >
-                <i class="fa fa-money"></i> <span>Accounts </span>
+                <i class="fa fa-money"></i> <span style="padding-left:3px; font-size:20px; color: white; font-weight: bold;">Accounts </span>
                 <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
@@ -3942,7 +3939,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
                 <a href="#">
                 	 
                 <i class="fa fa-medkit"></i>
-                <span>Phamarcy</span>
+                <span style="padding-left:3px; font-size:20px; color: white; font-weight: bold;">Phamarcy</span>
                 <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
@@ -3971,7 +3968,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
               <li class="treeview">
                 <a href="#">
                 <i class="fa fa-pie-chart"></i>
-                <span>Reports</span>
+                <span style="padding-left:3px; font-size:20px; color: white; font-weight: bold;">Reports</span>
                 <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
@@ -3984,7 +3981,7 @@ $(document).on("click", ".recordpatient", function () { //user clicks on button
               <li class="treeview">
                 <a href="#">
                 <i class="fa fa-cogs"></i>
-                <span>Set up</span>
+                <span style="padding-left:3px; font-size:20px; color: white; font-weight: bold;">Set up</span>
                 <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">

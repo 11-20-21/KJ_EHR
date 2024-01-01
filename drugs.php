@@ -209,10 +209,10 @@ $retrieved = mysqli_query($db,$sqluser);
 													                             }
 													                       
 													                       			              
-				  	   			                           $cost=$cost.$quantinty.' x MK'.$price.'= MK'.$costs.'<br>';
+				  	   			                           $cost=$cost.$quantinty.' x Rs.'.$price.'= Rs.'.$costs.'<br>';
 														   $drug=$drug.$drugname.' ('.$morning.') '.$amo.' ('.$after.') ('.$units.') a day for '.$ddays.' days<br>';
 				  	                                        $total=$total+$labcost+$costs;
-														   $labc='Lab tests fee = MK'.$labcost.'.00';
+														   $labc='Lab tests fee = Rs.'.$labcost.'.00';
                                                         }
                                                        if( $status=="Paid" || $status==""){$button='btn-success';}else{$button='btn-danger';}
 													 

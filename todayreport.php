@@ -458,9 +458,9 @@ a {
 									                          <td >$tname</td> 
 										                      <td >$drug</td>
 				                                              <td >$quantity</td>
-				                                              <td >MK$totalcost</td>
-				                                              <td >MK$profitperdrug</td>
-                                                              <td >MK$propp</td>                                                              
+				                                              <td >Rs.$totalcost</td>
+				                                              <td >Rs.$profitperdrug</td>
+                                                              <td >Rs.$propp</td>                                                              
                                                               <td >$payment</td>                                                              
                                                               <td >$time</td>                
                                                                 </tr> ";
@@ -472,10 +472,10 @@ a {
                                                        echo" <tr class='info'>
                                                               <td colspan='3'></td>
                                                               <td   style='color:green;font-weight:bold'> Sales Today</td>  
-                                                              <td>MK$sales</td> 
+                                                              <td>Rs.$sales</td> 
 									                          
 									                           <td style='color:green;font-weight:bold'>Profit Today</td>
-									                           <td colspan='3'>MK$profitss</td>      
+									                           <td colspan='3'>Rs.$profitss</td>      
                                                                 </tr> ";   
  									} 		
 																			              

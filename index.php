@@ -88,7 +88,7 @@ body {
     
 <body>
 
-<nav class="navbar " style="background-color:DodgerBlue; margin-bottom:150px; border-bottom:5px solid navy; box-shadow: 0px 3px 25px #151269;">
+<nav class="navbar " style="background-color:#00b160; margin-bottom:150px; border-bottom:5px solid navy; box-shadow: 0px 3px 25px #151269;">
   <div style="font-size:35px; display:flex; justify-content: center;align-items: center;">
   <img src="img/logo.png" width="130" height="100" alt="">
   <h1 style="padding-left:20px; font-size:45px; text-shadow: 2px 2px red;">KJ Electronic Health Record System</h1>

@@ -449,7 +449,7 @@ a {
 			                 Not paid
 			                 </td>             
 			                 <td>
-                                 MK$costtotal			                	 
+                                 Rs.$costtotal			                	 
 			                 </td>
 			                	                 		 
                              </tr>
@@ -467,7 +467,7 @@ a {
 }
 		 		        		 
 					 } 
-		echo"<tr><td colspan='6'></td><td><h3>Total Due</h3></td><td ><h3>MK$schecost</h3></td></tr>";
+		echo"<tr><td colspan='6'></td><td><h3>Total Due</h3></td><td ><h3>Rs.$schecost</h3></td></tr>";
 		           	?>
                          
          </tbody>
